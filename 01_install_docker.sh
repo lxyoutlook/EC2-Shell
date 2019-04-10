@@ -1,4 +1,6 @@
-#!/bin/bash echo "Step 1: Installing Docker & docker-compose"
+#!/bin/bash 
+
+echo "Installing Docker & docker-compose"
 
 sudo yum -y update
 
@@ -18,4 +20,5 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-c
 
 sudo chmod +x /usr/local/bin/docker-compose
 
+echo "Now rebooting..."
 sudo reboot now
