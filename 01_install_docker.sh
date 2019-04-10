@@ -1,5 +1,4 @@
-#!/bin/bash
-echo "Step 1: Installing Docker & docker-compose"
+#!/bin/bash echo "Step 1: Installing Docker & docker-compose"
 
 sudo yum -y update
 
