@@ -26,6 +26,7 @@ cd concourse-docker
 
 curl -O https://raw.githubusercontent.com/lxyoutlook/EC2-Shell/master/docker-compose.yml
 
+echo " "
 echo "************************************************************************"
 echo "*** Docker & docker-compose installation is DONE!                    ***"
 echo "*** Please modify the CONCOURSE_EXTERNAL_URL in the dock-compose.yml ***"
